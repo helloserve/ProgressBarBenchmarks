@@ -3,11 +3,11 @@
 ![Dutch government code meme](./progressbar.png)
 
 Just my own curiosity on the meme about the progress bar code unveiled by the Dutch government.
-I'm a proponent if unrolling a tightly or limited scope specification like this for the ease of reading and performance it brings. But does it?
+I'm a proponent of unrolling a tightly or limited scope specification like this for the ease of reading and performance it brings. But does it perform better?
 
 ## Benchmarks
 
-This repo includes various implementations suggested by colleages. The last one, `GetProgressPrepared`, is my own suggestion.
+This repo includes various implementations suggested by colleagues. The last one, `GetProgressPrepared`, is my own suggestion.
 
 For the benchmark a random set of 100 double values are prepared as the input. Then each method is run 100 times using the exact same input set.
 The results really speak for themselves:
